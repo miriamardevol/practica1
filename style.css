@@ -1,0 +1,44 @@
+.div {
+    background-color: red;
+}
+
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: aqua;
+    margin-top:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cap{
+    background-color: #808080;
+    color: #808080;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+#nom{
+    margin-left: 55%;
+    color:white;
+    font-size: 1.3em;
+}
+
+.general{
+    padding: 30px;
+}
+
+#cole {
+    width: 38%;
+    height: 1000px;
+    float: left;
+    background-color: rgb(255, 0, 0);
+
+}
+
+#cold {
+    width: 62%;
+    height: 1000px;
+    float: right;
+    background-color: blue;
+}
