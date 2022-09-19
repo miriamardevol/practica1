@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="general" style="margin-left: 10%; margin-right: 10%;">
+        <div class="container" style="width:auto">
+            <div class="row" id="caixaperfil" style="height:150px; background-color: #808080; color:white;">
+                <div class="col-xs-1 col-sm-1 col-md-4 col-lg-5"> </div>
+                <div class="col-xs-11 col-sm-11 col-md-8 col-lg-7" id="nomperfil">Germán Rossi</div>
+            </div>
+            <!-- COLUMNA ESQUERRA -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="dades" style="padding:10%;">
+                        <div class="row" id="imatge">
+                            <img src="foto.jpg" class="img-circle" id="imatge2" alt="Foto_German"> 
+                        </div>
+
+                        <div class="row" style="margin-top: 3em;">
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="padding-left:0;">
+                                <i class="bi bi-chevron-double-right"></i>
+                            </div>
+                            <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11" style="padding-left:0;">
+                                <p style="margin-bottom: 0;"> Datos personales</p>
+                            </div>
+                            <hr style="height: 2px; background-color: #D8D7D7;">
+
+                            <!-- NOMBRE-->
+
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="padding-left:0; margin-top: -1em; line-height:35px">
+                                <i class="bi bi-person-fill" style="color: #808080;"></i>
+                            </div>
+                            <div>
+                                <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11" style="padding-left:0; margin-top: -1em; line-height:35px">
+                                    <p>Germán Rossi</p>
+                                </div>
+                            </div>
+                            <span></span>
+
+                            <!-- CALLE-->
+
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="padding-left:0; margin-top: -1em; line-height:35px">
+                                <i class="bi bi-house-door-fill" style="color: #808080;"></i>
+                            </div>
+                            <div>
+                                <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11" style="padding-left:0; margin-top: -1em; line-height:35px;">
+                                    <p>Calle 24 5632, City Bell, La Plata</p>
+                                </div>
+                            </div>
+                            
+                            <!-- TELEFONO-->
+
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="padding-left:0; margin-top: -1em; line-height:35px">
+                                <i class="bi bi-telephone-fill" style="color: #808080; "></i>
+                            </div>
+                            <div>
+                                <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11" style="padding-left:0; margin-top: -1em; line-height:35px;">
+                                    <p> 12345678</p> <!--Rotar el telef-->
+                                </div>
+                            </div>
+
+                            <!-- MAIL-->
+
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="padding-left:0; margin-top: -1em; line-height:35px">
+                                <i class="bi bi-at" style="color: #808080; font-size: 1.3em; display:inline; vertical-align: top;"></i>
+                            </div>
+                            <div>
+                                <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11" style="padding-left:0; margin-top: -1em; line-height:35px;">
+                                    <p> germanrossi@gmail.com</p>
+                                </div>
+                            </div>
+
+                            <!-- CALENDARIO-->
+
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="padding-left:0; margin-top: -1em; line-height:35px">
+                                <i class="bi bi-calendar3" style="color: #808080; "></i>
+                            </div>
+                            <div>
+                                <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11" style="padding-left:0; margin-top: -1em; line-height:35px;">
+                                    <p>04/01/1995</p>
+                                </div>
+                            </div>
+                        
+                            <!-- LUGAR-->
+
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="padding-left:0; margin-top: -1em; line-height:35px">
+                                <i class="bi bi-flag-fill" style="color: #808080; "></i>
+                            </div>
+                            <div>
+                                <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11" style="padding-left:0; margin-top: -1em; line-height:35px;">
+                                    <p>Argentina</p> 
+                                </div>
+                            </div>
+
+                            <!-- NUMERO MOVIL -->
+
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="padding-left:0; margin-top: -1em; line-height:35px">
+                                <i class="bi bi-phone" style="color: #808080; "></i>
+                            </div>
+                            <div>
+                                <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11" style="padding-left:0; margin-top: -1em; line-height:35px;">
+                                    <p>9876 5432</p>
+                                </div>
+                            </div>
+
+                            <!-- SOLTERO -->
+
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="padding-left:0; margin-top: -1em; line-height:35px">
+                                <img src="icono.png" style="width:20px;">
+                            </div>
+                            <div>
+                                <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11" style="padding-left:0; margin-top: -1em; line-height:35px;">
+                                    <p> Soltero </p>
+                                </div>
+                            </div>
+
+
+                            <!-- COCHE -->
+
+
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="padding-left:0; margin-top: -1em; line-height:35px">
+                                <i class="bi bi-car-front-fill" style="color: #808080; "></i>
+                            </div>
+                            <div>
+                                <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11" style="padding-left:0; margin-top: -1em; line-height:35px;">
+                                    <p>Clase C</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <!-- HABILIDADES-->
+
+                        <div class="row" style="margin-top: 0.7em;">
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="padding-left:0;">
+                                <i class="bi bi-chevron-double-right"></i>
+                            </div>
+                            <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11" style="padding-left:0;">
+                                <p style="margin-bottom: 0;"> Habilidades</p>
+                            </div>
+                            <hr style="height: 2px; background-color: #D8D7D7;">
+                            
+                            <!-- DISCIPLINADO-->
+
+                            <div class="col-xs-5 col-sm-4 col-md-7 col-lg-6">
+                                <div class="row">
+                                    <p style="margin-top: -0.4em; display:inline; vertical-align: top;">Disciplinado</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-7 col-sm-8 col-md-5 col-lg-6">
+                                <div class="row">
+                                    <div class="progress" style="height: 1em;">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- LIDERAZGO-->
+
+                            <div class="col-xs-5 col-sm-4 col-md-7 col-lg-6">
+                                <div class="row">
+                                    <p style="margin-top: -0.4em; display:inline; vertical-align: top;">Liderazgo</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-7 col-sm-8 col-md-5 col-lg-6">
+                                <div class="row">
+                                    <div class="progress" style="height: 1em;">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- VISIONARIO-->
+
+                            <div class="col-xs-5 col-sm-4 col-md-7 col-lg-6">
+                                <div class="row">
+                                    <p style="margin-top: -0.4em; display:inline; vertical-align: top;">Visionario</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-7 col-sm-8 col-md-5 col-lg-6">
+                                <div class="row">
+                                    <div class="progress" style="height: 1em;">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- HABILIDAD NUMÉRICA-->
+
+                            <div class="col-xs-5 col-sm-4 col-md-7 col-lg-6">
+                                <div class="row">
+                                    <p style="margin-top: -0.4em; display:inline; vertical-align: top;">Habilidad numérica</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-7 col-sm-8 col-md-5 col-lg-6">
+                                <div class="row">
+                                    <div class="progress" style="height: 1em;">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- RELACIONES PÚBLICAS-->
+
+                            <div class="col-xs-5 col-sm-4 col-md-7 col-lg-6">
+                                <div class="row">
+                                    <p style="margin-top: -0.4em; display:inline; vertical-align: top;">Relaciones públicas</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-7 col-sm-8 col-md-5 col-lg-6">
+                                <div class="row">
+                                    <div class="progress" style="height: 1em;">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:50%"></div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+
+                        <!-- IDIOMAS-->
+
+                        <div class="row" style="margin-top: 0.7em;">
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="padding-left:0;">
+                                <i class="bi bi-chevron-double-right"></i>
+                            </div>
+                            <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11" style="padding-left:0;">
+                                <p style="margin-bottom: 0;"> Idiomas</p>
+                            </div>
+                            <hr style="height: 2px; background-color: #D8D7D7;">
+                            
+                            <!-- ESPAÑOL-->
+
+                            <div class="col-xs-5 col-sm-4 col-md-7 col-lg-6">
+                                <div class="row">
+                                    <p style="margin-top: -0.4em; display:inline; vertical-align: top;">Español</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-7 col-sm-8 col-md-5 col-lg-6">
+                                <div class="row">
+                                    <div class="progress" style="height: 1em;">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- INGLÉS-->
+
+                            <div class="col-xs-5 col-sm-4 col-md-7 col-lg-6">
+                                <div class="row">
+                                    <p style="margin-top: -0.4em; display:inline; vertical-align: top;">Inglés</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-7 col-sm-8 col-md-5 col-lg-6">
+                                <div class="row">
+                                    <div class="progress" style="height: 1em;">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- FRANCÉS-->
+
+                            <div class="col-xs-5 col-sm-4 col-md-7 col-lg-6">
+                                <div class="row">
+                                    <p style="margin-top: -0.4em; display:inline; vertical-align: top;">Francés</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-7 col-sm-8 col-md-5 col-lg-6">
+                                <div class="row">
+                                    <div class="progress" style="height: 1em;">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- PORTUGUÉS-->
+
+                            <div class="col-xs-5 col-sm-4 col-md-7 col-lg-6">
+                                <div class="row">
+                                    <p style="margin-top: -0.4em; display:inline; vertical-align: top;">Portugués</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-7 col-sm-8 col-md-5 col-lg-6">
+                                <div class="row">
+                                    <div class="progress" style="height: 1em;">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- INFORMÁTICA-->
+
+                        <div class="row" style="margin-top: 0.7em;">
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="padding-left:0;">
+                                <i class="bi bi-chevron-double-right"></i>
+                            </div>
+                            <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11" style="padding-left:0;">
+                                <p style="margin-bottom: 0;"> Informática</p>
+                            </div>
+                            <hr style="height: 2px; background-color: #D8D7D7;">
+                            
+                            <!-- MICROSOFT EXCEL-->
+
+                            <div class="col-xs-5 col-sm-4 col-md-7 col-lg-6">
+                                <div class="row">
+                                    <p style="margin-top: -0.4em; display:inline; vertical-align: top;">Microsoft Excel</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-7 col-sm-8 col-md-5 col-lg-6">
+                                <div class="row">
+                                    <div class="progress" style="height: 1em;">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%;"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- MICROSOFT WORD-->
+
+                            <div class="col-xs-5 col-sm-4 col-md-7 col-lg-6">
+                                <div class="row">
+                                    <p style="margin-top: -0.4em; display:inline; vertical-align: top;">Microsoft Word</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-7 col-sm-8 col-md-5 col-lg-6">
+                                <div class="row">
+                                    <div class="progress" style="height: 1em;">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- SOFTWARE DELSOL-->
+
+                            <div class="col-xs-5 col-sm-4 col-md-7 col-lg-6">
+                                <div class="row">
+                                    <p style="margin-top: -0.4em; display:inline; vertical-align: top;">Software DelSol</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-7 col-sm-8 col-md-5 col-lg-6">
+                                <div class="row">
+                                    <div class="progress" style="height: 1em;">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- CONTALUX-->
+
+                            <div class="col-xs-5 col-sm-4 col-md-7 col-lg-6">
+                                <div class="row">
+                                    <p style="margin-top: -0.4em; display:inline; vertical-align: top;">Contalux</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-7 col-sm-8 col-md-5 col-lg-6">
+                                <div class="row">
+                                    <div class="progress" style="height: 1em;">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- CEGIT-->
+
+                            <div class="col-xs-5 col-sm-4 col-md-7 col-lg-6">
+                                <div class="row">
+                                    <p style="margin-top: -0.4em; display:inline; vertical-align: top;">Cegit</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-7 col-sm-8 col-md-5 col-lg-6">
+                                <div class="row">
+                                    <div class="progress" style="height: 1em;">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width:30%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- COMPETÈNCIA-->
+
+                        <div class="row" style="margin-top: 0.7em;">
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="padding-left:0;">
+                                <i class="bi bi-chevron-double-right"></i>
+                            </div>
+                            <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11" style="padding-left:0;">
+                                <p style="margin-bottom: 0;"> Competència</p>
+                            </div>
+                            <hr style="height: 2px; background-color: #D8D7D7;">
+                            
+                            <!-- COMUNICACIÓN-->
+
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="padding-left:0; margin-top: -1em; line-height:35px">
+                                <i class="bi bi-caret-right-fill" style="color: #808080;"></i>
+                            </div>
+                            <div>
+                                <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11" style="padding-left:0; margin-top: -1em; line-height:35px">
+                                    <p>Comunicación</p>
+                                </div>
+                            </div>
+                            <span></span>
+
+                            <!-- TRABAJO EN EQUIPO-->
+
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" style="padding-left:0; margin-top: -1em; line-height:35px">
+                                <i class="bi bi-caret-right-fill" style="color: #808080;"></i>
+                            </div>
+                            <div>
+                                <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11" style="padding-left:0; margin-top: -1em; line-height:35px">
+                                    <p>Trabajo en equipo</p>
+                                </div>
+                            </div>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                
+            <!-- COLUMNA DRETA -->
+            
+            <div class="col-md-8">
+                <div class="informacio" style="padding:13%;">
+
+                    <!--TITULO PERFIL-->
+                    <br>
+                    <div class="row" style="margin-top: -4em;">
+                        <div class="col-xs-1" style="padding-left:0; margin-left: -3em;">
+                            <div class="col-sm-1">
+                                <div class="col-md-1">
+                                    <div class="col-lg-1">
+                                        <i class="bi bi-chevron-double-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="col-xs-11" style="padding-left:0; margin-left: -0.7em;">
+                            <div class="col-sm-11">
+                                <div class="col-md-11">
+                                    <div class="col-lg-11">
+                                        <p  id="menudreta" style="margin-bottom: 0;"> Perfil </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr style="height: 2px; background-color: #D8D7D7;">
+                    </div>
+
+
+                    <!--INFO PERFIL-->
+
+                    <div class="texto" style="padding-left:0; margin-left:-1em">
+                        <p> Experiencia en diferentes proyectos de implementación y mantenimiento
+                            post implementación, como asi también tareas de mantenimiento correctivo
+                            y evolutivo. Proactivo, orientado a resultados, con 4 años de experiencia en
+                            areas administrativo-contables, y más de 4 años de experiencia como
+                            consultor.
+                        </p>
+                    </div>
+
+                    <!--TITULO EXPERIENCIA DE TRABAJO-->
+                    <br>
+                    <div class="row" style="margin-top: 4em;">
+                        <div class="col-xs-1" style="padding-left:0; margin-left: -3em;">
+                            <div class="col-sm-1">
+                                <div class="col-md-1">
+                                    <div class="col-lg-1">
+                                        <i class="bi bi-chevron-double-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="col-xs-11" style="padding-left:0; margin-left: -0.7em;">
+                            <div class="col-sm-11">
+                                <div class="col-md-11">
+                                    <div class="col-lg-11">
+                                        <p id="menudreta" style="margin-bottom: 0;"> Experiencias de trabajo </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr style="height: 2px; background-color: #D8D7D7;">
+                    </div>
+
+                    <!--INFO EXPERIÈNCIA DE TRABAJO-->
+                    
+                    <div class="row">
+                        <div class="col-sm-3 col-md-4 col-lg-3">
+                            01/2017 - Present
+                        </div>
+                        <div class="col-sm-9 col-md-8 col-lg-9">
+                            <b>Consultor &AP</b> <br>
+                            Bunge Cono Bur <br> <br>
+                            Mantenimiento Correctivo / evolutto Modulls FICO-TRM. Imolementación Intertase con bancos para registro de cobranzas por cuentas recaudadores Implementación del registro de recaudaciones a través de sóterme Lapos. Lider Funcional FICO para prayecto Upgrade.
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+                            08/2016 - 12/2016
+                        </div>
+                        <div class="col-sm-9 col-md-9 col-lg-9">
+                            <b>Consultor &AP FINCO &r</b> <br>
+                            Boftlex - La Plata, Buenos Aires <br> <br>
+                            Como consultor, participe activamente en los siguientes proyectos:
+                            <ul>
+                                <li>
+                                    Banco Hipotecario - Upgrade de versión 5.0 a 6.0
+                                </li>
+                                <li>
+                                    PC Arts Argentina (BANGHO) - Implementación BAP ALL IN ONE
+                                </li>
+                                <li>
+                                    Laboratorios Banofi Aventis - Soporte para LATAM
+                                </li>
+                                <li>
+                                    Investigación y desarrollo de casos de estudio sobre parametrización y aplicación del modulo TRM - Plazos Fijos
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+                            01/2015 - 07/2016
+                        </div>
+                        <div class="col-sm-9 col-md-9 col-lg-9">
+                            <b>Especialista &AP FI</b> <br>
+                            Accenture Argentina <br> <br>
+                            Consultor funcional del modulo Fl creación de nuevas sociedades Fi, configuración de apersciones bencarias de extracios autonáticos, configuración de nuevas estructuras de balances, configuración de nueves cuentas bancarias en les distinta sociedades del grupo de empresss, configuración perdis médula activo fua, corrigursción de nuevos indicadores de Impuestos, soporte funciorel a usus"es del módulo FI-AR. F-TR. FI-GL. FI-AF
+                        </div>
+                    </div>
+
+                    <!--TÍTOL EDUCACIÓ-->
+                    <br>
+                    <div class="row" style="margin-top: 4em;">
+                        <div class="col-xs-1" style="padding-left:0; margin-left: -3em;">
+                            <div class="col-sm-1">
+                                <div class="col-md-1">
+                                    <div class="col-lg-1">
+                                        <i class="bi bi-chevron-double-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="col-xs-11" style="padding-left:0; margin-left: -0.7em;">
+                            <div class="col-sm-11">
+                                <div class="col-md-11">
+                                    <div class="col-lg-11">
+                                        <p id="menudreta" style="margin-bottom: 0;"> Educación </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr style="height: 2px; background-color: #D8D7D7;">
+                    </div>
+
+                    <!--INFO EDUCACIÓ-->
+                    <div class="row">
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+                            08/2009 - Presente
+                        </div>
+                        <div class="col-sm-9 col-md-9 col-lg-9">
+                            <b>Contador Público</b> <br>
+                            Universitat de Buenos Aires (UBA) - Buenos Aires - Promedio: 8 <br> <br>
+                            Durante mi formación me he capacitado para asesorar personas y emoresas en las áreas financiera, Impositiva, contable, laboral, de costas
+socletaria. Disefiar, Interpretar e impiementar sistemas de información contables, dentro de las organizaciones públicas y privadas, para la torna de
+                        </div>
+                    </div>
+
+
+                </div>
+             </div>
+         </div>   
+    </body>
+</html>
